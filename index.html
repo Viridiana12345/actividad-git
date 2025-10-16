@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Índice – IDGS UTSC</title>
+  <link rel="stylesheet" href="estilos.css"/>
+</head>
+<body>
+  <header>
+    <h1>Índice – TSU en IDGS (UTSC)</h1>
+    <nav>
+      <a href="#materias">Materias</a>
+      <a href="#horarios">Turnos y horarios</a>
+      <a href="#tsu">Imagen TSU</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- 1) TABLA DE MATERIAS -->
+    <section id="materias">
+      <h2>Materias cursadas</h2>
+      <p>Ejemplo de materias de la carrera IDGS.</p>
+      <table>
+        <thead>
+          <tr>
+            <th>Cuatrimestre</th>
+            <th>Materia</th>
+            <th>Tipo</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1°</td>
+            <td>Fundamentos de Programación</td>
+            <td>Teórico–Práctico</td>
+          </tr>
+          <tr>
+            <td>1°</td>
+            <td>Base de Datos I</td>
+            <td>Teórico–Práctico</td>
+          </tr>
+          <tr>
+            <td>2°</td>
+            <td>Programación Web</td>
+            <td>Práctico</td>
+          </tr>
+          <tr>
+            <td>2°</td>
+            <td>Ingeniería de Software</td>
+            <td>Teórico</td>
+          </tr>
+          <tr>
+            <td>3°</td>
+            <td>Aplicaciones Móviles</td>
+            <td>Práctico</td>
+          </tr>
+          <tr>
+            <td>3°</td>
+            <td>Calidad y Pruebas (QA)</td>
+            <td>Teórico–Práctico</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- 2) TURNOS Y HORARIOS -->
+    <section id="horarios">
+      <h2>Turnos y horarios</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Matutino</h3>
+          <ul>
+            <li>Lunes a Viernes</li>
+            <li>07:00 – 13:00</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Vespertino</h3>
+          <ul>
+            <li>Lunes a Viernes</li>
+            <li>13:00 – 19:00</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Mixto / Sabatino</h3>
+          <ul>
+            <li>Sábados</li>
+            <li>08:00 – 14:00</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- 3) IMAGEN DE TSU -->
+    <section id="tsu">
+      <h2>Imagen de TSU</h2>
+      <figure>
+        <!-- Coloca tu imagen en /images/ con el nombre tsu.png -->
+        <img src="images/utsc.png" alt="Emblema UTSC" width="240" height="240"/>
+        <figcaption>Puedes reemplazar este archivo por el logo oficial.</figcaption>
+      </figure>
+
+      <button id="toggleTema">Cambiar tema</button>
+    </section>
+  </main>
+
+  <footer>
+    <small>Hecho para la práctica de Git & GitHub</small>
+  </footer>
+
+  <script src="javascript.js"></script>
+</body>
+</html>
