@@ -3,13 +3,13 @@
   --bg:#0f172a;
   --fg:#e2e8f0;
   --card:#111827;
-  --accent:#22d3ee;
+  --accent:#ff9fd7;
 }
 :root.claro{
   --bg:#ffffff;
   --fg:#0f172a;
   --card:#f3f4f6;
-  --accent:#06b6d4;
+  --accent:#fba6f0;
 }
 
 *{box-sizing:border-box}
@@ -56,6 +56,6 @@ button{
   padding:10px 14px;
   border-radius:12px;
   font-weight:700;
-  box-shadow:0 6px 20px rgba(0,0,0,.25);
+  box-shadow:0 6px 20px rgba(255, 130, 130, 0.25);
 }
 footer{padding:40px 20px; text-align:center; opacity:.8}
